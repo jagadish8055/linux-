@@ -1,0 +1,31 @@
+linux 
+find . -name  "{filenamee}"
+find / -name "{}
+difference b/w  find and locate 
+changing =passwd userid 
+old password- enter the new password 
+new password 
+retype  new 
+-----------------------------------------
+wildcards-
+*-> to remove the file after that eg: touch file1,2.3 file*
+{}-> add the file eg: touch file{1..20} -> this will create 
+20 files
+? ->  find the string eg ls ?il*
+rm fi* -> it will remove the file satrt with fi
+rm *le* -> start rom le 
+----------------------------------------------
+links 
+it is like creating  the short cut of the file 
+
+hardlink - ln   it will create a copy -> deleting  renaming or  moving  the orginal file will not affect  the hard link 
+softlink  - ln -s {filename} ->it shortcut if we delete the 
+file  the short cut will be their -> link will be removed if file is removed or renamed 
+inode the id of the file ->inode will have different 
+when u create the link it should be in the same partion 
+ls -ltri
+-----------------------------
+commands 
+passwd {userid}
+passwd 
+
