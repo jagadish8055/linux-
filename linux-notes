@@ -1,5 +1,5 @@
 linux 
-find . -name  "{filenamee}"
+find . -name  "{filenamee}" -> it can check only the file name 
 find / -name "{}
 difference b/w  find and locate 
 changing =passwd userid 
